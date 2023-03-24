@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Log in or Sign up</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: #eaf2f9;
+        box-sizing: border-box;
+      }
+      h1 {
+        color: #4267b2;
+        font-size: 82px;
+        text-align: center;
+        margin-top: 81px;
+      }
+      h3 {
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        padding: 8px 0px 8px 0px;
+        margin: 0px 0px 0px 0px;
+      }
+      .box {
+        background-color: white;
+        width: 37vw;
+        height: 60vh;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 90%;
+        background-color: white;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      input[type="button"] {
+        background-color: #4267b2;
+        color: white;
+        width: 90%;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      input[type="button"]:hover {
+        background-color: #4776d3;
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        background-color: white;
+        color: #4267b2;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      hr {
+        width: 96%;
+        margin: 10px;
+      }
+      input[type="button"].btn-hero {
+        background-color: green;
+        color: white;
+        width: 60%;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>facebook</h1>
+      <div class="box">
+        <h3>Log in to Facebook</h3>
+        <input
+          type="text"
+          name="email address or phone number"
+          placeholder="Email or phone number"
+        /><br />
+        <input type="password" name="password" placeholder="Password" /><br />
+        <input type="button" value="Log In"><br />
+        <a href="#">Forgotten account?</a>
+        <hr />
+        <input
+          type="button"
+          class="btn-hero"
+          value="Create New Account"
+        /><br />
+      </div>
+    </div>
+  </body>
+</html>
